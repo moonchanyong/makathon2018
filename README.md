@@ -16,7 +16,7 @@ kaist global makers League, bronze maker
 ## 구현
   * 구현 상세
   - 아두이노
-  ![아두이노 레이아웃](https://github.com/moonchanyong/makathon2018/blob/master/imgs/layout.png?raw=true)
+  ![아두이노 레이아웃](https://github.com/moonchanyong/makathon2018/blob/master/imgs/rayout.png?raw=true)
   각 기능을 하는 함수 들을 제공하여 시리얼로 입력된 명령을 수행, route로 분기를 일으키게 하고, 음료를 명령하고 실제로 물을 따르지 않았을경우 예외처리 등
   - 라즈베리파이
   nodejs 서버를 이용, 서버에 request가 오면 아두이노에 serial port에 명령 전달
