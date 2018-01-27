@@ -1,0 +1,37 @@
+<!--
+  Generated template for the OrderPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>예약걸기</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-item>
+    <ion-label  >차 종류</ion-label>
+  <ion-select [(ngModel)]="cartridge">
+    <ion-option value="1">1. 에티오피아산 커피</ion-option>
+    <ion-option value="2">2. 얼그레이 홍차</ion-option>
+    <ion-option value="3">3. 새콤한 립톤</ion-option>
+  </ion-select>
+</ion-item>
+
+<ion-item>
+    <ion-label>잔 수</ion-label>
+  <ion-select [(ngModel)]="cups">
+    <ion-option value="1">1</ion-option>
+    <ion-option value="2">2</ion-option>
+    <ion-option value="3">3</ion-option>
+    <ion-option value="4">4</ion-option>
+    <ion-option value="5">5</ion-option>
+    <ion-option value="6">6</ion-option>
+    <ion-option value="7">7</ion-option>
+  </ion-select>
+</ion-item>
+
+<button id="btn" ion-button round (click)="push_()" >예약</button>
+</ion-content>

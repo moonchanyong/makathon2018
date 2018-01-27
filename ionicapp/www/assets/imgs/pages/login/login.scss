@@ -1,0 +1,101 @@
+page-login {
+
+
+  ion-content {
+    background-image: url("../assets/imgs/login/bg_login.jpg");
+    background-size: cover;
+  }
+
+
+
+  #bgFilter{
+    position: fixed;
+
+    width:100vw;
+    height: 100vh;
+    z-index: -8;
+    background-color: #000000;
+    opacity: 0.2;
+  }
+
+  .item-input ion-input, .item-input ion-textarea{
+    height:5vh;
+  }
+
+  #login-form{
+    position: fixed;
+    top:13vh;
+
+    #login-id{
+      background-color: transparent;
+      width : 100vw;
+      padding-left: 15vw;
+      padding-right: 15vw;
+      font-size:4vw;
+
+    }
+
+    #login-password{
+      background-color: transparent;
+      width : 100vw;
+      padding-left: 15vw;
+      padding-right: 15vw;
+      font-size:4vw;
+    }
+
+
+  }
+
+  #sign-in{
+    position: absolute;
+    top:27vh;
+  }
+
+  #sign-up{
+    position: absolute;
+    top:84vh;
+    -webkit-text-fill-color:#ffffff;
+    font-sie: 4vw;
+  }
+
+  #findpwdbutton{
+    position: absolute;
+    top:33.5vh;
+    font-size : 4vw;
+  }
+
+  #logo {
+    position: fixed;
+    width: 50vw;
+    left : 50%;
+    transform: translateX(-50%);
+
+  }
+
+  #container {
+
+      position: fixed;
+      top: 30%;
+      left: 50%;
+      width: 100%;
+      transform: translate(-50% , -30%);
+      height: 35vh;
+
+
+  }
+  #kakao{
+    top: 69.79vh;
+    position: absolute;
+  }
+
+  #facebook {
+    top:77.08vh;
+    position: absolute;
+  }
+
+  .iconImg{
+    width: 6vw;
+    margin-right: 5vw;
+  }
+
+  }

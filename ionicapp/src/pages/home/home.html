@@ -1,0 +1,30 @@
+<!--
+  Generated template for the HomePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>홈</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content >
+    <div id="banner" padding-bottom>
+        <ion-slides pager="true" loop="true">
+          <ion-slide >
+            <img src="{{eventList[0]}}" />
+          </ion-slide>
+          <ion-slide >
+              <img src="{{eventList[1]}}" />
+            </ion-slide>
+            <ion-slide >
+                <img src="{{eventList[2]}}" />
+              </ion-slide>
+        </ion-slides>
+      </div>
+</ion-content>
